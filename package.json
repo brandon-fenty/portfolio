@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/brandon-fenty/portfolio/issues"
   },
-  "homepage": "https://github.com/brandon-fenty/portfolio#readme"
+  "homepage": "https://github.com/brandon-fenty/portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
+  }
 }
