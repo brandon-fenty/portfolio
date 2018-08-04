@@ -1,0 +1,15 @@
+.site-header {
+    background-color: black;
+}
+
+.site-header a {
+    color: white;
+}
+
+.bg-image {
+    background-image: url('../images/bg-mtns.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
