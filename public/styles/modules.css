@@ -8,10 +8,10 @@ nav a {
 
 /* Landing */
 
-#landing {
+/* #landing {
     width: 100%;
     height: 600px;
-}
+} */
 
 #landing h1 {
     font-size: 4em;
@@ -25,6 +25,7 @@ nav a {
     display: inline-block;
 }
 
-.social {
-    text-align: center;
-}
+/* About */
+
+
+
