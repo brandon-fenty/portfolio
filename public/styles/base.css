@@ -1,26 +1,36 @@
 /* Colors */
 
-.color-dark { color: #182628; }
+.color-dark { color: #1a1a1d; }
 
-.color-light-green { color: #65CCB8; }
+.color-grey { color: #4e3e50; }
 
-.color-med-green { color: #57BA98; }
+.color-red { color: #6f2232; }
 
-.color-green { color: #3B945E; }
+.color-magenta { color: #950740; }
 
-.color-white { color: #F2F2F2; }
+.color-pink { color: #c3073f; }
 
-.bg-color-dark { background-color: #182628; }
+.color-white { color: #ffffff; }
 
-.bg-color-light-green { background-color: #65CCB8; }
+.bg-color-dark { background-color: #1a1a1d; }
 
-.bg-color-med-green { background-color: #57BA98; }
+.bg-color-grey { background-color: #4e3e50; }
 
-.bg-color-green { background-color: #3B945E; }
+.bg-color-red { background-color: #6f2232; }
 
-.bg-color-white { background-color: #F2F2F2; }
+.bg-color-magenta { background-color: #950740; }
+
+.bg-color-pink { background-color: #c3073f; }
 
 /* Main Styling */
+
+body {
+    font-family: 'VT323', monospace;
+}
+
+a {
+    text-decoration: none;
+}
 
 .align-center {
     text-align: center;
@@ -30,10 +40,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto; 
-}
-
-body {
-    font-family: 'VT323', monospace;
 }
 
 .bg-image {
