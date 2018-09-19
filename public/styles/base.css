@@ -1,0 +1,51 @@
+/* Colors */
+
+.color-dark { color: #1a1a1d; }
+
+.color-grey { color: #4e3e50; }
+
+.color-red { color: #6f2232; }
+
+.color-magenta { color: #950740; }
+
+.color-pink { color: #c3073f; }
+
+.color-white { color: #ffffff; }
+
+.bg-color-dark { background-color: #1a1a1d; }
+
+.bg-color-grey { background-color: #4e3e50; }
+
+.bg-color-red { background-color: #6f2232; }
+
+.bg-color-magenta { background-color: #950740; }
+
+.bg-color-pink { background-color: #c3073f; }
+
+/* Main Styling */
+
+body {
+    font-family: 'VT323', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.bg-image {
+    background-image: url('../images/baker-sea-clouds-reg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
