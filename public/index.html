@@ -8,68 +8,75 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <!-- custom css styles -->
     <link rel="stylesheet" type="text/css" href="styles/base.css" />
-    <link rel="stylesheet" type="text/css" href="styles/layout.css" />
-    <link rel="stylesheet" type="text/css" href="public/styles/modules.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modules.css" />
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <title>Brandon Fenty</title>
 </head>
 
-<body>
-    <nav class="site-header navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<body class="bg-color-light-green">
+    <nav class="site-header navbar navbar-expand-lg navbar-dark bg-color-light-green sticky-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Brandon A. Fenty</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon  color-white"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-content">
-                    <a class="nav-item" href="#about">About</a>
-                    <a class="nav-item" href="#projects">Projects</a>
-                    <a class="nav-item" href="#skillset">Skillset</a>
-                    <a class="nav-item" href="#experience">Experience</a>
-                    <a class="nav-item" href="#education">Education</a>
+                <a class="nav-item color-grey" href="#about">About</a>
+                <a class="nav-item color-grey" href="#projects">Projects</a>
+                <a class="nav-item color-grey" href="#skillset">Skillset</a>
+                <a class="nav-item color-grey" href="#experience">Experience</a>
+                <a class="nav-item color-grey" href="#education">Education</a>
             </div>
         </div>
     </nav>
 
     <main>
-        <section>    
+        <section id="landing" class="jumbotron bg-color-light-green">    
             <div class="container">
                 <div class="row">
-                    <div  id="ascii-logo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p>
-                            <pre>
-██████╗ ██████╗  █████╗ ███╗   ██╗██████╗  ██████╗ ███╗   ██╗
-██╔══██╗██╔══██╗██╔══██╗████╗  ██║██╔══██╗██╔═══██╗████╗  ██║
-██████╔╝██████╔╝███████║██╔██╗ ██║██║  ██║██║   ██║██╔██╗ ██║
-██╔══██╗██╔══██╗██╔══██║██║╚██╗██║██║  ██║██║   ██║██║╚██╗██║
-██████╔╝██║  ██║██║  ██║██║ ╚████║██████╔╝╚██████╔╝██║ ╚████║ 
-╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝
-███████╗███████╗███╗   ██╗████████╗██╗   ██╗
-██╔════╝██╔════╝████╗  ██║╚══██╔══╝╚██╗ ██╔╝
-█████╗  █████╗  ██╔██╗ ██║   ██║    ╚████╔╝ 
-██╔══╝  ██╔══╝  ██║╚██╗██║   ██║     ╚██╔╝  
-██║     ███████╗██║ ╚████║   ██║      ██║   
-╚═╝     ╚══════╝╚═╝  ╚═══╝   ╚═╝      ╚═╝   
-                            </pre>
-                        </p>
-                        
-                        <h5 class="">
-                            > SOFTWARE DEVELOPER <br>
-                            > MARINE CORPS VETERAN <br>
-                            > ALPINIST 
-                        </h5>
+                    <div class="col">
+                        <img class="img-center" src="images/mountain-gif.gif" height="300px"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h1 class="color-white align-center">
+                            BRANDON FENTY
+                        </h1>
+                        <h4 class="color-white align-center">
+                            > SOFTWARE DEVELOPER, MARINE CORPS VETERAN, ALPINIST &lt;
+                        </h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="social">
+                            <li>
+                                <a href="http://www.github.com/brandon-fenty" target="_blank"><i class="fab fa-github-square fa-2x color-white"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com/in/brandon-fenty" target="_blank"><i class="fab fa-linkedin fa-2x color-white"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/yutani_nw/" target="_blank"><i class="fab fa-instagram fa-2x color-white"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/yutani_nw/" target="_blank"><i class="fab fa-twitter fa-2x color-white"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
         <section id="about">
-            <h2>A little bit about myself</h2>
+            <h2 class="color-cyan">A little bit about myself</h2>
         </section>
         <section id="projects">
             <div>
-                <h2>Projects</h2>
+                <h2 class="color-cyan">Projects</h2>
                 <div>
                     <h3>Coming Soon</h3>
                     <div class="subheading mb-3"></div>
@@ -101,7 +108,7 @@
         </section>
         <section id="skillset">
             <div>
-                <h2>Skillset</h2>
+                <h2 class="color-cyan">Skillset</h2>
                 <div>
                     <div>
                         <div class="subheading mb-3">Languages</div>
@@ -136,7 +143,7 @@
         </section>
         <section>
             <div>
-                <h2>Experience</h2>
+                <h2 class="color-cyan">Experience</h2>
                 <div>
                     <div>
                         <h3>Communications Systems Technician</h3>

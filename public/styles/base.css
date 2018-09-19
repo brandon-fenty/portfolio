@@ -1,3 +1,37 @@
+/* Colors */
+
+.color-dark { color: #182628; }
+
+.color-light-green { color: #65CCB8; }
+
+.color-med-green { color: #57BA98; }
+
+.color-green { color: #3B945E; }
+
+.color-white { color: #F2F2F2; }
+
+.bg-color-dark { background-color: #182628; }
+
+.bg-color-light-green { background-color: #65CCB8; }
+
+.bg-color-med-green { background-color: #57BA98; }
+
+.bg-color-green { background-color: #3B945E; }
+
+.bg-color-white { background-color: #F2F2F2; }
+
+/* Main Styling */
+
+.align-center {
+    text-align: center;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 body {
     font-family: 'VT323', monospace;
 }
@@ -8,18 +42,4 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-}
-
-.color-white {
-    color: #ffffff;
-}
-
-nav a {
-    text-decoration: none;
-    display: block;
-    margin-right: 1em;
-}
-
-#ascii-logo {
-    margin: 0 auto;
 }
