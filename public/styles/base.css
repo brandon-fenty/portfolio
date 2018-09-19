@@ -1,15 +1,25 @@
-.site-header {
-    background-color: black;
-}
-
-.site-header a {
-    color: white;
+body {
+    font-family: 'VT323', monospace;
 }
 
 .bg-image {
-    background-image: url('../images/bg-mtns.jpg');
+    background-image: url('../images/baker-sea-clouds-reg.jpg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-    width: 100%;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    margin-right: 1em;
+}
+
+#ascii-logo {
+    margin: 0 auto;
 }

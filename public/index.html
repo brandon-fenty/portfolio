@@ -10,34 +10,62 @@
     <link rel="stylesheet" type="text/css" href="styles/base.css" />
     <link rel="stylesheet" type="text/css" href="styles/layout.css" />
     <link rel="stylesheet" type="text/css" href="public/styles/modules.css" />
-    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
     <title>Brandon Fenty</title>
 </head>
 
 <body>
-    <nav class="site-header sticky-top py-1">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
-            <a href="#" class="py-2">Brandon A. Fenty</a>
-            <a class="py-2 d-none d-md-inline-block" href="#about">About</a>
-            <a class="py-2 d-none d-md-inline-block" href="#projects">Projects</a>
-            <a class="py-2 d-none d-md-inline-block" href="skillset">Skillset</a>
-            <a class="py-2 d-none d-md-inline-block" href="experience">Experience</a>
-            <a class="py-2 d-none d-md-inline-block" href="#education">Education</a>
+    <nav class="site-header navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Brandon A. Fenty</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+                    <a class="nav-item" href="#about">About</a>
+                    <a class="nav-item" href="#projects">Projects</a>
+                    <a class="nav-item" href="#skillset">Skillset</a>
+                    <a class="nav-item" href="#experience">Experience</a>
+                    <a class="nav-item" href="#education">Education</a>
+            </div>
         </div>
     </nav>
 
-    <main role="main" class="container">
-        <section class="bg-image">    
-            <div class="container-fluid">
+    <main>
+        <section>    
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2>Hello.</h2>
+                    <div  id="ascii-logo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <p>
-                            My name is Brandon Fenty and I'm a full stack software engineer with a penchant for creating beautiful,intuitive user experiences. 
+                            <pre>
+██████╗ ██████╗  █████╗ ███╗   ██╗██████╗  ██████╗ ███╗   ██╗
+██╔══██╗██╔══██╗██╔══██╗████╗  ██║██╔══██╗██╔═══██╗████╗  ██║
+██████╔╝██████╔╝███████║██╔██╗ ██║██║  ██║██║   ██║██╔██╗ ██║
+██╔══██╗██╔══██╗██╔══██║██║╚██╗██║██║  ██║██║   ██║██║╚██╗██║
+██████╔╝██║  ██║██║  ██║██║ ╚████║██████╔╝╚██████╔╝██║ ╚████║ 
+╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝
+███████╗███████╗███╗   ██╗████████╗██╗   ██╗
+██╔════╝██╔════╝████╗  ██║╚══██╔══╝╚██╗ ██╔╝
+█████╗  █████╗  ██╔██╗ ██║   ██║    ╚████╔╝ 
+██╔══╝  ██╔══╝  ██║╚██╗██║   ██║     ╚██╔╝  
+██║     ███████╗██║ ╚████║   ██║      ██║   
+╚═╝     ╚══════╝╚═╝  ╚═══╝   ╚═╝      ╚═╝   
+                            </pre>
                         </p>
+                        
+                        <h5 class="">
+                            > SOFTWARE DEVELOPER <br>
+                            > MARINE CORPS VETERAN <br>
+                            > ALPINIST 
+                        </h5>
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="about">
+            <h2>A little bit about myself</h2>
         </section>
         <section id="projects">
             <div>
@@ -71,7 +99,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="skillset">
             <div>
                 <h2>Skillset</h2>
                 <div>
