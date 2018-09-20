@@ -9,6 +9,12 @@ nav a {
 
 /* Landing */
 
+.landing-bg {
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 #landing h1 {
     font-size: 4em;
